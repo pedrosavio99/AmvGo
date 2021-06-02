@@ -1,0 +1,64 @@
+--------------------------------------- INTRODUÇÃO -----------------------------------
+
+primeiro foi criao 3 pastas (estilo, imagens e js) essas pastas vão servir para armqazenar as partes do codigo
+
+em stilo ja criei o index.html e digitei html 5 e escolhi essa opção para ja pegar o scopo do codigo
+
+depoiis que codar o minimo usa-se o open live serve clicando com botão direito no arquivo pra ver como esta 
+a pagina no navegador
+
+lembre-se que o html é o responsável pela estrutura do seu sistema 
+quem cuida da aparencia é o css
+
+
+--------------------------- em css ---------------------------------
+No css fazemos as modificações de estilo 
+criei um arquivo main.css em estilo
+
+o css serve tbm pra criar regras de padronização em todos os navegadores
+
+
+site para pegar icons dahora https://fontawesome.com/v6.0/icons
+
+
+esse comando vc deve usar no index para poder chaamr essa bibloteca 
+<script src="https://kit.fontawesome.com/eb6fb4f7cc.js" crossorigin="anonymous"></script>
+
+
+------------------------- criação do carrossel ---------------------
+
+primeiro que vamos utilizar essa biblioteca desse link 
+
+https://owlcarousel2.github.io/OwlCarousel2/
+
+vai baixar esse arquivo 
+
+nesse ar vc entra em :
+
+C:\Users\Downloads\OwlCarousel2-2.3.4\OwlCarousel2-2.3.4\docs\assets\vendors
+
+dai vc copia o arquivo jquery.min e cola na pasta owl que vc criou dentro de js! 
+
+
+depois vc vai em C:\Users\Pichau\Downloads\OwlCarousel2-2.3.4\OwlCarousel2-2.3.4\docs\assets\owlcarousel
+ 
+
+ e copia o arquivo owlcarrosel.min  e cola dentro de owl que vc criou em js 
+
+
+ depois vc vai em C:\Users\Pichau\Downloads\OwlCarousel2-2.3.4\OwlCarousel2-2.3.4\dist\assets e copiar os arquivos 
+ owlcarousel.min e owl.theme.defalt.min e colar na pasata owl que vc criou dentro de style
+
+
+ e dai vc vai criar as duas mensões no index essa na parte dos js:
+
+     <script src="style/owl/owl.carousel.min.css"></script>
+    <script src="style/owl/owl.theme.default.min.css"></script>
+
+e essa na parte do head:
+
+<link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+<link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+
+depois vc vai em demos no site e ver oq vc quer e coloca no seu index em um novo div

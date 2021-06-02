@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- aqui usei a lingua portugues msm não interferindo no codigo-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css"> <!-- aqui eu criei a referencia ao documento onde esta os estilos css-->
+    <!-- Resposividade-->
+    <link rel="stylesheet" href="/style/style/responsivo.css">
+    <!-- aqui são os arquivos owl css que conseguimos baixando e criando as pastar é so ler o amvGO.txt na parte "carrosel"-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <!-- crl + space vc consegue navegar nos arquivos ali entre parenteses!-->
+    <title>AmvGo</title>
+</head>
+<body>
+    <header> <!-- aqui temos o cabessaçho uma pequana caixa com algumas opções gerais no site-->
+        <div class="container"> 
+            <h2 class="Logo">AmvGo</h2>
+            <nav>
+                <a href="#">Inicio</a> <!-- esse # serve pra ir pro inicio da pagina -->
+                <a href="#">aberturas</a> <!-- esse # serve pra ir pro inicio da pagina -->
+                <a href="#">ação</a> <!-- esse # serve pra ir pro inicio da pagina -->
+                <a href="#">motivacionais</a> <!-- esse # serve pra ir pro inicio da pagina -->
+                <a href="#">épicos</a> <!-- esse # serve pra ir pro inicio da pagina -->
+            </nav>
+        </div>
+    </header> 
+    <main>
+        <!--criei essa diva pra criar o poster principal-->
+        <div class="filme1">
+            <div class="container">
+                <h3 class = "titulo">Samurai Champloo</h3>
+                <p class = "descricao"> Samurai Champloo é uma série de anime dirigida 
+                    por Shinichiro Watanabe, famoso por 
+                    Cowboy Bebop. A série se passa numa versão
+                     fictícia do Período Edo, misturando elementos 
+                     reais da época com elementos modernos como hip-hop. 
+                    </p>
+                <div class="botoes">
+                    <button role ="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role ="button" class="botao">
+                        <!-- mermao eu tiver que colocar o fas na frente do link do icone pq não tava pegando o link copiado do site-->
+                        <i class="fas fa-star"></i>
+                        ADICIONAR A SUA LISTA
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div  class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="/imagens/allmight.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/imagens/barbabranca.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/imagens/endevor.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/imagens/fullmetal.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/imagens/gai.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/imagens/hxh.png" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/imagens/pain.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/imagens/saitama.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/imagens/zoro.jpg" alt="" srcset="">
+            </div>
+        </div>
+
+    </div>
+    <!-- os arquivos js devem sempre ser carregados no final do codigo-->
+    <script src="https://kit.fontawesome.com/eb6fb4f7cc.js" crossorigin="anonymous"></script>
+    <script src="/JS/owl/jquery.min.js"></script>
+    <script src="/JS/owl/owl.carousel.min.js"></script>
+    <script src="/JS/owl/setup.js"></script>
+    <!-- lembrando que esses arquivos ai carrousel foram baixados ver o manual txt-->
+</body>
+</html>
