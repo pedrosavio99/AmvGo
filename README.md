@@ -3,4 +3,4 @@
 front end de um possivel repositorios de amv's para fans de animes.
 
 
-![Logo do R](https://lh3.googleusercontent.com/pw/ACtC-3dFSIubao8HdkBqm3UfLhAz37dDvMNwbQUabLDCrEUujZ9aicVmwUqftphNCSZSRT7bTWcAAMAWNHbAk_Xwp3M6auxosxyXMHCmZniPLs66I49HBIBb6Yu1VwAhs-bejBu5Tdkd1N26MRTGa6wRwP2b=w1345-h605-no?authuser=0)
+![Logo do R](https://lh3.googleusercontent.com/pw/ACtC-3dB4t0u6ikfHWmh4Whm6XY6K0WoAGGIrctCgqTkLX2G1-LNFbtbLgcJhyEYpWgOJ39tYrZkBoT7Hog7PFze74djZU_VXg6Nk0MOng3PkoDVka7mVXDtFlqYOpLTKXd6SIz_gaLgOXTetUUjGuI1oJos=w750-h358-no?authuser=0)
